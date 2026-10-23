@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mNews"
+        android:icon="@drawable/baseline_newspaper"
+        android:title="News"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mForyou"
+        android:icon="@drawable/baseline_boy"
+        android:title="For You"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mPublic"
+        android:icon="@drawable/baseline_motion_photos_on"
+        android:title="Public"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mTraining"
+        android:icon="@drawable/baseline_segment"
+        android:title="Training"
+        app:showAsAction="ifRoom" />
+
+</menu>
